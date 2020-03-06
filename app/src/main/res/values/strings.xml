@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Royal Tours</string>
+    <string name="title_activity_enlever">EnleverActivity</string>
+    <string name="activity_gestion_livres">Royal Tours</string>
+</resources>

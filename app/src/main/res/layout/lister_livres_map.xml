@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_lister_etapes"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.mobiles.exemple.gestionlivres_volley_json_h19.ListerEtapesActivity">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:layout_weight="1"
+        >
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:padding="10dp"
+            android:maxWidth="10dp"
+            android:maxHeight="10dp"
+            />
+
+        <TextView
+            android:id="@+id/idl"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:paddingStart="50dp"
+            android:paddingEnd="50dp"
+            android:textSize="18sp"
+            android:visibility="invisible" />
+        <TextView android:id="@+id/mtitre"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingLeft="50px"
+            />
+        <TextView android:id="@+id/mauteur"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textSize="18sp"
+            android:paddingLeft="50px"
+            />
+        <TextView android:id="@+id/mannee"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textSize="18sp"
+            android:paddingLeft="50px"
+            />
+        <TextView android:id="@+id/mpages"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textSize="18sp"
+            android:paddingLeft="50px"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/circuits"
+        android:title="@string/circuits"/>
+<!--        app:showAsAction="always"/>-->
+    <item android:id="@+id/compte"
+        android:title="@string/Compte"/>
+<!--        app:showAction="always"/>-->
+    <!--        app:showAction="always"/>-->
+    <item android:id="@+id/QUITTER"
+        android:title="@string/QUITTER"/>
+<!--        app:showAction="always"/>-->
+
+</menu>
